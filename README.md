@@ -57,6 +57,11 @@
 2. git remote add origin [https://youroriginurl.git]
 3. git remote -v ~~ to check the origin address
 
+# CONFIG - change email & username
+1. git config --list
+2. git config --global user.email "gorazd.murko@zenlab.si"
+3. git config --global user.name "Gorazd Murko"
+
 # USEFUL INFO
 - git status --> See changes
 - git branch -v --> To see the last commit on each branch, you can run
