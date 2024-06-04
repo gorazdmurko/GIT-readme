@@ -67,6 +67,7 @@
 - git branch -v --> To see the last commit on each branch, you can run
 - git branch --merged --> To see which branches are already merged into the branch you’re on, you can run
 - git branch --no-merged --> To see all the branches that contain work you haven’t yet merged in, you can run
+- git restore --staged src/app/features/data-binding/bill-of-materials/gg-bill-of-materials.adapter.ts --> removes a file from a git
 
 # REFERENCES
 - https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github
