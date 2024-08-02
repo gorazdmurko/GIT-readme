@@ -57,6 +57,10 @@
 2. git remote add origin [https://youroriginurl.git]
 3. git remote -v ~~ to check the origin address
 
+# STASH
+1. git stash
+2. git stash pop
+
 # CONFIG - change email & username
 1. git config --list
 2. git config --global user.email "gorazd.murko@zenlab.si"
