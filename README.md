@@ -60,6 +60,11 @@
 # STASH
 1. git stash
 2. git stash pop
+3. git stash push -m "stash-with-name"
+4. git stash list
+5. git stash pop stash@{index}
+6. git stash apply stash^{/stash-with-name}
+7. git stash pop stash^{/stash-with-name}
 
 # CONFIG - change email & username
 1. git config --list
