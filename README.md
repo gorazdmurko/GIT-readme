@@ -28,8 +28,8 @@
 3. git branch -a ~~ returns an info of all local/remote branches
 4. git branch -v -a ~~ returns an info of all local/remote branches
 5. To set up branch 'office' to track remote branch 'office' from 'origin' follow these 2 steps:
- 5.1. git branch office origin/office
- 5.2. git checkout office
+- git branch office origin/office
+- git checkout office
 
 # LOCAL BRANCHES
 1. git branch ~~ returns an info of current local branch
