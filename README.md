@@ -24,10 +24,11 @@
 
 # LOCAL BRANCHES
 1. git branch ~~ returns an info of current local branch
-2. git checkout develop ~~ switches to develop local branch (if already exists)
-3. git checkout -b develop ~~ creates local develop branch and switches to it
-4. git checkout -b praksa develop ~~ creates new branch from your current branch
-5. git push -u origin 'branch-name' ~~ pushing a current local branch to newly created remote branch (-u is the shortcut for --set-upstream)
+2. git branch -a ~~ returns an info of all local/remote branches
+3. git checkout develop ~~ switches to develop local branch (if already exists)
+4. git checkout -b develop ~~ creates local develop branch and switches to it
+5. git checkout -b praksa develop ~~ creates new branch from your current branch
+6. git push -u origin 'branch-name' ~~ pushing a current local branch to newly created remote branch (-u is the shortcut for --set-upstream)
 
 # REMOTE BRANCHES
 - git fetch --all
