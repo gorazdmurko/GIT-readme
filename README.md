@@ -22,13 +22,23 @@
 # PULL
 - git pull
 
+# FETCH & CHECKOUT
+1. git fetch
+2. git fetch --all
+3. git branch -a ~~ returns an info of all local/remote branches
+4. git branch -v -a ~~ returns an info of all local/remote branches
+5. To set up branch 'office' to track remote branch 'office' from 'origin' follow these 2 steps:
+ 5.1. git branch office origin/office
+ 5.2. git checkout office
+
 # LOCAL BRANCHES
 1. git branch ~~ returns an info of current local branch
 2. git branch -a ~~ returns an info of all local/remote branches
-3. git checkout develop ~~ switches to develop local branch (if already exists)
-4. git checkout -b develop ~~ creates local develop branch and switches to it
-5. git checkout -b praksa develop ~~ creates new branch from your current branch
-6. git push -u origin 'branch-name' ~~ pushing a current local branch to newly created remote branch (-u is the shortcut for --set-upstream)
+3. git branch -v -a ~~ returns an info of all local/remote branches
+4. git checkout develop ~~ switches to develop local branch (if already exists)
+5. git checkout -b develop ~~ creates local develop branch and switches to it
+6. git checkout -b praksa develop ~~ creates new branch from your current branch
+7. git push -u origin 'branch-name' ~~ pushing a current local branch to newly created remote branch (-u is the shortcut for --set-upstream)
 
 # REMOTE BRANCHES
 - git fetch --all
